@@ -21,6 +21,9 @@ yarn-error.log*
 .env
 .env*.local
 
+# handoff local (ne jamais commiter : usage strictement local)
+HANDOFF.md
+
 # vercel
 .vercel
 
