@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "CGU — La Fichothèque",
+  title: "CGU — Stynotes",
   description:
-    "Conditions générales d’utilisation de La Fichothèque : propriété intellectuelle, signalement et modération.",
+    "Conditions générales d’utilisation de Stynotes : propriété intellectuelle, signalement et modération.",
 };
 
 /**
@@ -17,7 +17,7 @@ export default function CguPage() {
   return (
     <section className="content">
       <Link href="/" className="back-link">
-        ← La Fichothèque
+        ← Stynotes
       </Link>
 
       <div className="content-header">
@@ -33,7 +33,7 @@ export default function CguPage() {
       <div className="legal-prose">
         <h3>Article 1 — Objet</h3>
         <p>
-          La Fichothèque est une plateforme de partage de <b>supports d’étude personnalisés</b>{" "}
+          Stynotes est une plateforme de partage de <b>supports d’étude personnalisés</b>{" "}
           (résumés personnels, fiches de révision, cartes mentales) entre étudiants de
           l’Université Toulouse III — Paul Sabatier. Elle est éditée à des fins pédagogiques et
           non lucratives.
@@ -48,7 +48,7 @@ export default function CguPage() {
 
         <h3>Article 3 — Contenu publié : obligation d’être l’auteur unique et exclusif</h3>
         <p>
-          Tout utilisateur qui publie un document sur La Fichothèque déclare et garantit en être{" "}
+          Tout utilisateur qui publie un document sur Stynotes déclare et garantit en être{" "}
           <b>le seul et unique auteur</b>, à l’exclusion de toute autre personne physique ou
           morale. Le document doit être issu de son travail personnel, rédigé dans ses propres
           mots, et ne reprendre aucune œuvre tiers sans autorisation.
@@ -90,7 +90,7 @@ export default function CguPage() {
         <h3>Article 5 — Propriété intellectuelle</h3>
         <p>
           L’utilisateur conserve l’ensemble des droits sur le document qu’il publie. Il concède
-          à La Fichothèque la seule autorisation technique de stocker, afficher et permettre le
+          à Stynotes la seule autorisation technique de stocker, afficher et permettre le
           téléchargement du document via la plateforme, à des fins de partage entre étudiants. Le
           retrait du document par son auteur met fin à cette autorisation. En cas de publication
           anonyme, l’anonymat de l’auteur est préservé à l’égard des autres utilisateurs ; il
@@ -148,7 +148,7 @@ export default function CguPage() {
 
         <h3>Article 10 — Responsabilité</h3>
         <p>
-          L’utilisateur est seul responsable du contenu qu’il publie. La Fichothèque, en sa
+          L’utilisateur est seul responsable du contenu qu’il publie. Stynotes, en sa
           qualité d’hébergeur, n’exerce aucun contrôle a priori et intervient uniquement à
           réception d’un signalement ou d’une décision de modération. Toute publication illicite
           expose son auteur à des poursuites civiles et pénales indépendantes des mesures prises

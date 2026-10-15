@@ -78,7 +78,7 @@ export default async function NotePage({ params }: { params: Promise<{ id: strin
           <b>Note retirée.</b>{" "}
           {isAdmin
             ? "Elle n’apparaît plus dans les classements ni la recherche — tu peux la rétablir ci-dessous."
-            : "Elle a été retirée de la fichothèque par la modération et n’apparaît plus dans les classements."}
+            : "Elle a été retirée du site par la modération et n’apparaît plus dans les classements."}
         </div>
       )}
 

@@ -1,5 +1,5 @@
 -- ============================================================
--- Fichotheque — schéma Supabase (à coller dans l'éditeur SQL)
+-- Stynotes — schéma Supabase (à coller dans l'éditeur SQL)
 -- ============================================================
 -- Un seul fichier : tables + index + triggers + RLS + bucket
 -- de stockage public (téléchargement sans connexion).

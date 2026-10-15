@@ -9,7 +9,7 @@ import { getCourses } from "@/lib/data";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "La Fichothèque",
+  title: "Stynotes",
   description:
     "Résumés personnels, fiches de révision et cartes mentales, classés par UE et votés par les étudiants.",
 };
@@ -38,7 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <div className="toast" id="toast" aria-live="polite" />
         <noscript>
           <div style={{ padding: 20, textAlign: "center" }}>
-            <Link href="/">La Fichothèque</Link>
+            <Link href="/">Stynotes</Link>
           </div>
         </noscript>
       </body>

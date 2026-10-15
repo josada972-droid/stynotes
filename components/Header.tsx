@@ -27,7 +27,7 @@ export default async function Header({ initialQuery = "" }: { initialQuery?: str
   return (
     <header className="top">
       <Link href="/" className="brand serif">
-        La Fichothèque<span className="dot">.</span>
+        Stynotes<span className="dot">.</span>
       </Link>
 
       <form className="search-form" action="/search" method="get" role="search">

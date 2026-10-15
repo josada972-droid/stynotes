@@ -1,4 +1,4 @@
-# La Fichothèque
+# Stynotes
 
 Reddit rencontre une trousse académique : un site où les étudiants d'une promo
 partagent leurs **supports d'étude personnalisés** — résumés personnels,

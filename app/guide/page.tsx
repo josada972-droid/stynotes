@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Résumer sans plagier — La Fichothèque",
+  title: "Résumer sans plagier — Stynotes",
   description:
     "Guide visuel : la différence entre un résumé légal et une contrefaçon, et comment signaler un document.",
 };
 
 /**
- * Aide visuelle — la charte de publication de la Fichothèque.
+ * Aide visuelle — la charte de publication de Stynotes.
  * Deux colonnes graphiques (légal ✓ / contrefaçon ✗), une
  * checklist et la procédure de signalement. Accessible sans
  * connexion depuis le formulaire d'upload, les CGU et le footer.
@@ -17,7 +17,7 @@ export default function GuidePage() {
   return (
     <section className="content">
       <Link href="/" className="back-link">
-        ← La Fichothèque
+        ← Stynotes
       </Link>
 
       <div className="content-header">
