@@ -1038,6 +1038,14 @@ section.content {
   line-height: 1.6;
 }
 
+.auth-hint {
+  font-size: 13px;
+  color: var(--ink-soft);
+  opacity: 0.85;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
 /* ---------------- notifications (cloche) ---------------- */
 
 .bell-wrap {

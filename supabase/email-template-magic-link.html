@@ -1,0 +1,39 @@
+<!--
+  Stynotes — modèle d'e-mail « Magic Link » (connexion).
+  À coller dans : Supabase Dashboard → Authentication → Emails → Templates → Magic Link
+  (c'est bien ce modèle qui part avec signInWithOtp + emailRedirectTo).
+
+  Objet à définir :
+  Stynotes — ton lien de connexion
+-->
+
+<h1 style="font-family:Georgia,serif;font-size:20px;color:#1B2A4A;margin:0 0 4px;">
+  Stynotes
+</h1>
+<p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#1B2A4A;margin:0 0 16px;">
+  Ton lien de connexion pour les supports d'étude de la promo L1 Info.
+</p>
+
+<p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;margin:0 0 16px;">
+  <a href="{{ .ConfirmationURL }}"
+     style="display:inline-block;background:#1B2A4A;color:#F6F3EC;padding:11px 18px;
+            text-decoration:none;border-radius:3px;font-weight:bold;">
+    Ouvrir Stynotes
+  </a>
+</p>
+
+<p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#5A6478;margin:0 0 6px;">
+  Ce lien expire dans quelques minutes. S'il ne fonctionne plus, renvoie-toi-en un
+  depuis le site.
+</p>
+
+<p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#5A6478;margin:0 0 6px;">
+  Tu le trouves dans tes indésirables ? C'est normal : notre expéditeur est récent et
+  les filtres des universités sont très stricts sur les liens de connexion. Fais-le
+  glisser dans ta boîte de réception et la prochaine fois il arrivera directement.
+</p>
+
+<p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#8A93A5;margin:16px 0 0;">
+  Stynotes — fondée par David-Alexy Jean-Baptiste &amp; Alex Fabre-Laporte.
+  Tu n'as rien demandé ? Ignore ce message.
+</p>

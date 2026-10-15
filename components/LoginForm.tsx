@@ -65,8 +65,12 @@ export default function LoginForm({ next = "/" }: { next: string }) {
           Lien de connexion envoyé à <b>{email}</b>. Ouvre-le depuis ton mail étudiant pour
           revenir sur le site — le lien expire rapidement.
         </p>
-        <p style={{ marginBottom: 0 }}>
+        <p>
           Tu n’as rien d’autre à faire : pas de mot de passe, pas de pseudo.
+        </p>
+        <p className="auth-hint" style={{ marginBottom: 0 }}>
+          Rien après quelques minutes ? Vérifie tes <b>indésirables / courrier
+          indésirable</b> — les liens de connexion y atterrissent souvent.
         </p>
       </div>
     );
@@ -94,6 +98,9 @@ export default function LoginForm({ next = "/" }: { next: string }) {
       <button type="submit" className="btn primary" disabled={busy}>
         {busy ? "Envoi en cours…" : "Recevoir mon lien de connexion"}
       </button>
+      <p className="auth-hint" style={{ marginBottom: 0 }}>
+        Pense à vérifier tes <b>indésirables</b> si le mail n’arrive pas.
+      </p>
     </form>
   );
 }
