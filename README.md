@@ -6,6 +6,9 @@ fiches de révision, cartes mentales — classés par UE, **classés par votes**
 et où le téléchargement reste **sans compte, sans pub, sans attente** (le
 contraire de Scribd).
 
+> Projet fondé par **David-Alexy Jean-Baptiste**
+> ([@josada972-droid](https://github.com/josada972-droid)) et
+> **Alex Fabre-Laporte** ([@Arcomew](https://github.com/Arcomew)).
 > Périmètre v1 : la promo L1 info de l'UPS uniquement. Uniquement des
 > documents **rédigés par les étudiants eux-mêmes** — jamais de PDF de cours,
 > d'annales ni de transcriptions mot à mot (voir `/cgu` et `/guide`), pas de
